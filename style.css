@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+#sticky-bar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    z-index: 1000;
+    border-bottom: 2px solid #333;
+}
+
+#htl-logo {
+    height: 50px;
+    width: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#link-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+}
+
+a {
+    padding: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.7s ease;
+}
+
+a:hover {
+    background-color: #474747;
+    border-radius: 5px;
+}
+
+#hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(45deg, #1a1a1a, #333);
+    color: white;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+#info-sections {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-block h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-block p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.info-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
